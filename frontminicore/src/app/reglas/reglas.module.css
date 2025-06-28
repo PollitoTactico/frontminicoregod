@@ -1,0 +1,37 @@
+.reglas-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+}
+.reglas-form {
+  margin-bottom: 24px;
+}
+.reglas-error {
+  color: red;
+}
+.reglas-label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.reglas-input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.reglas-button {
+  padding: 8px 16px;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.reglas-button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}

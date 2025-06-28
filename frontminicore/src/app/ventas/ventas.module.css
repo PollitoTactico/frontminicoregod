@@ -1,0 +1,37 @@
+.ventas-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 24px;
+}
+.ventas-form {
+  margin-bottom: 24px;
+}
+.ventas-error {
+  color: red;
+}
+.ventas-label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.ventas-input, .ventas-select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.ventas-button {
+  padding: 8px 16px;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ventas-button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}

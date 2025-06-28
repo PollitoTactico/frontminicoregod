@@ -32,7 +32,7 @@ export default function VentasPage() {
       if (!res.ok) throw new Error("Error al obtener vendedores");
       const data: Vendedor[] = await res.json();
       setVendedores(data);
-    } catch (err) {
+    } catch {
       setError("No se pudieron cargar los vendedores");
     }
   };
